@@ -1,16 +1,19 @@
 .accordion {
   .head {
-    margin: 2.5rem;
+    margin: 1.875rem 12.5rem;
     display: flex;
     border-bottom: 2px dashed #eaf3fc;
+    justify-content: space-between;
+    align-items: center;
     @media screen and (max-width: 992px) {
+      margin: 2.5rem;
       justify-content: space-between;
       align-items: center;
     }
     h3 {
       font-family: "Brandon Grotesque";
       color: #053d76;
-      @media screen {
+      @media screen and (max-width: 992px) {
       }
     }
     span {
@@ -22,8 +25,15 @@
   .content {
     font-family: "Brandon Grotesque";
     text-align: left;
-    font-size: 14px;
-    margin: 2.5rem;
-    padding-right: 1.75rem;
+    margin: 0 12.5rem;
+    padding-right: 2rem;
+    opacity: 0.87;
+    line-height: 30px;
+    @media screen and (max-width: 992px) {
+      line-height: 21px;
+      font-size: 14px;
+      margin: 2.5rem;
+      padding-right: 1.75rem;
+    }
   }
 }

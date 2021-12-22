@@ -3,7 +3,13 @@
   @media screen and (max-width: 992px) {
     height: 56vh;
   }
-
-  img {
+  .heading {
+    position: absolute;
+    bottom: 0;
+    margin: 2.5rem;
+    font-size: 2rem;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    color: #fff;
   }
 }

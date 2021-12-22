@@ -15,7 +15,7 @@ export default function index() {
     url(${image}) no-repeat center center / cover`,
       }}
     >
-      <h3>Terms of use</h3>
+      <h3 className={style.heading}>Terms of use</h3>
     </section>
   );
 }

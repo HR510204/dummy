@@ -1,0 +1,29 @@
+.accordion {
+  .head {
+    margin: 2.5rem;
+    display: flex;
+    border-bottom: 2px dashed #eaf3fc;
+    @media screen and (max-width: 992px) {
+      justify-content: space-between;
+      align-items: center;
+    }
+    h3 {
+      font-family: "Brandon Grotesque";
+      color: #053d76;
+      @media screen {
+      }
+    }
+    span {
+      background-color: #eaf3fc;
+      padding: 0.4rem;
+      border-radius: 50%;
+    }
+  }
+  .content {
+    font-family: "Brandon Grotesque";
+    text-align: left;
+    font-size: 14px;
+    margin: 2.5rem;
+    padding-right: 1.75rem;
+  }
+}

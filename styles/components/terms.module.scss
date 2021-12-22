@@ -1,0 +1,27 @@
+.term {
+  @media screen and (max-width: 992px) {
+  }
+  .content {
+    @media screen and (max-width: 992px) {
+    }
+    p {
+      font-family: "Brandon Grotesque";
+      text-align: left;
+      color: #053d76;
+      @media screen and (max-width: 992px) {
+        font-size: 16px;
+        margin: 2.5rem;
+      }
+      span {
+        @media screen and (max-width: 992px) {
+          font-weight: bold;
+        }
+        span {
+          @media screen and (max-width: 992px) {
+            color: #ff8d83;
+          }
+        }
+      }
+    }
+  }
+}

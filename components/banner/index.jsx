@@ -1,7 +1,8 @@
 import React from "react";
 import style from "../../styles/components/banner.module.scss";
-export default function index() {
-  const image = `/dummy.png`;
+export default function index(props) {
+  const { image, head } = props.data;
+
   return (
     <section
       className={style.banner}
@@ -15,7 +16,7 @@ export default function index() {
     url(${image}) no-repeat center center / cover`,
       }}
     >
-      <h3 className={style.heading}>Terms of use</h3>
+      <h3 className={style.heading}>{head}</h3>
     </section>
   );
 }

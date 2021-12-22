@@ -8,9 +8,9 @@ export default function index() {
       style={{
         background: `linear-gradient(
       90deg,
-      rgba(255, 140, 130, 0.616) 0%,
-      rgba(94, 124, 208, 0.74) 60%,
-      rgba(0, 115, 255, 0.863) 100%
+      rgba(255, 140, 130, 0.8) 0%,
+      rgba(94, 124, 208, 0.8) 60%,
+      rgba(0, 115, 255, 0.8) 100%
     ),
     url(${image}) no-repeat center center / cover`,
       }}

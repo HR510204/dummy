@@ -1,15 +1,22 @@
 .banner {
   position: relative;
+  height: 44.43vh;
+
   @media screen and (max-width: 992px) {
     height: 56vh;
   }
   .heading {
     position: absolute;
     bottom: 0;
-    margin: 2.5rem;
-    font-size: 2rem;
+    margin: 3rem 5rem;
     font-family: "Noto Serif";
     font-weight: bold;
     color: #fff;
+    font-size: 4rem;
+
+    @media screen and (max-width: 992px) {
+      margin: 2.5rem;
+      font-size: 2rem;
+    }
   }
 }
